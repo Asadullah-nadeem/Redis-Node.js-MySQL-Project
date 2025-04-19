@@ -1,0 +1,4 @@
+ADD COLUMN role VARCHAR(100) DEFAULT NULL;
+UPDATE users SET role = 'admin' WHERE id BETWEEN 1 AND 4;
+UPDATE users SET role = 'Hacker' WHERE id BETWEEN 5 AND 9;
+UPDATE users SET role = 'user' WHERE id BETWEEN 10 AND 10000;

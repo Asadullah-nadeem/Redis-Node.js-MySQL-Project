@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Cards Grid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Our Team Members</h1>
+      <p>Meet the talented individuals who make our organization successful</p>
+    </div>
+
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Search team members..." id="searchInput">
+    </div>
+
+    <div id="loading" class="loading-spinner">
+      <i class="fas fa-spinner fa-spin"></i> Loading...
+  
+    </div>
+
+    <div id="users-container">
+      <div class="card">
+        
+      </div>
+    </div>
+
+    <div class="pagination" id="pagination">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
